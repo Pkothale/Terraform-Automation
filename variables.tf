@@ -48,4 +48,5 @@ variable "tags" {
         environment = "DEV"
         terraform   = "true"
     }
+
 }
