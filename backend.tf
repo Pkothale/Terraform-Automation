@@ -4,6 +4,6 @@ terraform {
     key = "main"
     region = "us-east-1"
     table        = "my-dynamodb-table"
-    use_lockfile   = true
+    
   }
 }
