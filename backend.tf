@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "young-minds-app-btach-28"
+    bucket = "young-minds-app-btach-28123"
     key = "main"
-    region = "us-east-1"
+    region = "ap-southeast-2"
     dynamodb_table  = "my-dynamodb-table"
     
   }
